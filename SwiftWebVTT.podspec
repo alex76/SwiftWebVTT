@@ -8,9 +8,10 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/auramagi/SwiftWebVTT.git', :tag => s.version }
   
   s.ios.deployment_target = '12.0'
+  s.tvos.deployment_target = '12.0'
   
   s.swift_version = '5.0'
   
-  s.source_files = "SwiftWebVTT/*.{h,swift}"
-  s.resources = ["SwiftWebVTT/*.{json}"]
+  s.source_files = "Sources/Common/*.{h,swift}"
+  s.resources = ["Sources/Common/*.{json}"]
 end

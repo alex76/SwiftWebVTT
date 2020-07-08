@@ -20,6 +20,17 @@
 		A384747422EC36A500E545A6 /* WebVTTParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384747322EC36A500E545A6 /* WebVTTParser.swift */; };
 		A3B935CA22A8E4B400B0E066 /* references_substitutes.json in Resources */ = {isa = PBXBuildFile; fileRef = A3B935C922A8E4B400B0E066 /* references_substitutes.json */; };
 		A3B935D322A9051A00B0E066 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B935D222A9051A00B0E066 /* Scanner.swift */; };
+		FAD3B6BA24B5B73A00225A89 /* SwiftWebVTT_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD3B6B124B5B73A00225A89 /* SwiftWebVTT_tvOS.framework */; };
+		FAD3B6BF24B5B73A00225A89 /* SwiftWebVTT_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3B6BE24B5B73A00225A89 /* SwiftWebVTT_tvOSTests.swift */; };
+		FAD3B6C124B5B73A00225A89 /* SwiftWebVTT_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD3B6B324B5B73A00225A89 /* SwiftWebVTT_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD3B6D324B5B9FC00225A89 /* WebVTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = A332BFF122A8496C009E47D5 /* WebVTT.swift */; };
+		FAD3B6D424B5B9FF00225A89 /* Deduplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384746F22EC352200E545A6 /* Deduplication.swift */; };
+		FAD3B6D524B5BA0200225A89 /* WebVTTParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384747322EC36A500E545A6 /* WebVTTParser.swift */; };
+		FAD3B6D624B5BA0400225A89 /* HTMLCharacterReferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = A332BFF322A849DA009E47D5 /* HTMLCharacterReferences.swift */; };
+		FAD3B6D724B5BA0700225A89 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B935D222A9051A00B0E066 /* Scanner.swift */; };
+		FAD3B6D824B5BA0900225A89 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384747122EC35AC00E545A6 /* Extensions.swift */; };
+		FAD3B6D924B5BA0C00225A89 /* references_named.json in Resources */ = {isa = PBXBuildFile; fileRef = A332BFF522A84A22009E47D5 /* references_named.json */; };
+		FAD3B6DA24B5BA0F00225A89 /* references_substitutes.json in Resources */ = {isa = PBXBuildFile; fileRef = A3B935C922A8E4B400B0E066 /* references_substitutes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +40,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = A332BFE522A84954009E47D5;
 			remoteInfo = SwiftWebVTT;
+		};
+		FAD3B6BB24B5B73A00225A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A332BFDD22A84954009E47D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD3B6B024B5B73A00225A89;
+			remoteInfo = "SwiftWebVTT-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,6 +69,12 @@
 		A384747322EC36A500E545A6 /* WebVTTParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVTTParser.swift; sourceTree = "<group>"; };
 		A3B935C922A8E4B400B0E066 /* references_substitutes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = references_substitutes.json; sourceTree = "<group>"; };
 		A3B935D222A9051A00B0E066 /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		FAD3B6B124B5B73A00225A89 /* SwiftWebVTT_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftWebVTT_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD3B6B324B5B73A00225A89 /* SwiftWebVTT_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftWebVTT_tvOS.h; sourceTree = "<group>"; };
+		FAD3B6B424B5B73A00225A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD3B6B924B5B73A00225A89 /* SwiftWebVTT-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftWebVTT-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD3B6BE24B5B73A00225A89 /* SwiftWebVTT_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWebVTT_tvOSTests.swift; sourceTree = "<group>"; };
+		FAD3B6C024B5B73A00225A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +93,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAD3B6AE24B5B73A00225A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD3B6B624B5B73A00225A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD3B6BA24B5B73A00225A89 /* SwiftWebVTT_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,8 +116,11 @@
 			children = (
 				A312ECE522EC5F98004BFD28 /* LICENSE */,
 				A312ECE422EC5F98004BFD28 /* README.md */,
+				FAD3B6D124B5B9C500225A89 /* Sources */,
 				A332BFE822A84954009E47D5 /* SwiftWebVTT */,
 				A332C02422A84E80009E47D5 /* SwiftWebVTTTests */,
+				FAD3B6B224B5B73A00225A89 /* SwiftWebVTT-tvOS */,
+				FAD3B6BD24B5B73A00225A89 /* SwiftWebVTT-tvOSTests */,
 				A332BFE722A84954009E47D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +130,8 @@
 			children = (
 				A332BFE622A84954009E47D5 /* SwiftWebVTT.framework */,
 				A332C02322A84E80009E47D5 /* SwiftWebVTTTests.xctest */,
+				FAD3B6B124B5B73A00225A89 /* SwiftWebVTT_tvOS.framework */,
+				FAD3B6B924B5B73A00225A89 /* SwiftWebVTT-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,14 +139,6 @@
 		A332BFE822A84954009E47D5 /* SwiftWebVTT */ = {
 			isa = PBXGroup;
 			children = (
-				A332BFF122A8496C009E47D5 /* WebVTT.swift */,
-				A384746F22EC352200E545A6 /* Deduplication.swift */,
-				A384747322EC36A500E545A6 /* WebVTTParser.swift */,
-				A332BFF322A849DA009E47D5 /* HTMLCharacterReferences.swift */,
-				A3B935D222A9051A00B0E066 /* Scanner.swift */,
-				A384747122EC35AC00E545A6 /* Extensions.swift */,
-				A332BFF522A84A22009E47D5 /* references_named.json */,
-				A3B935C922A8E4B400B0E066 /* references_substitutes.json */,
 				A332BFE922A84954009E47D5 /* SwiftWebVTT.h */,
 				A332BFEA22A84954009E47D5 /* Info.plist */,
 			);
@@ -128,6 +164,47 @@
 			path = Sample;
 			sourceTree = "<group>";
 		};
+		FAD3B6B224B5B73A00225A89 /* SwiftWebVTT-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3B6B324B5B73A00225A89 /* SwiftWebVTT_tvOS.h */,
+				FAD3B6B424B5B73A00225A89 /* Info.plist */,
+			);
+			path = "SwiftWebVTT-tvOS";
+			sourceTree = "<group>";
+		};
+		FAD3B6BD24B5B73A00225A89 /* SwiftWebVTT-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3B6BE24B5B73A00225A89 /* SwiftWebVTT_tvOSTests.swift */,
+				FAD3B6C024B5B73A00225A89 /* Info.plist */,
+			);
+			path = "SwiftWebVTT-tvOSTests";
+			sourceTree = "<group>";
+		};
+		FAD3B6D124B5B9C500225A89 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3B6D224B5B9DC00225A89 /* Common */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FAD3B6D224B5B9DC00225A89 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A332BFF122A8496C009E47D5 /* WebVTT.swift */,
+				A384746F22EC352200E545A6 /* Deduplication.swift */,
+				A384747322EC36A500E545A6 /* WebVTTParser.swift */,
+				A332BFF322A849DA009E47D5 /* HTMLCharacterReferences.swift */,
+				A3B935D222A9051A00B0E066 /* Scanner.swift */,
+				A384747122EC35AC00E545A6 /* Extensions.swift */,
+				A332BFF522A84A22009E47D5 /* references_named.json */,
+				A3B935C922A8E4B400B0E066 /* references_substitutes.json */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -136,6 +213,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A332BFEB22A84954009E47D5 /* SwiftWebVTT.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD3B6AC24B5B73A00225A89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD3B6C124B5B73A00225A89 /* SwiftWebVTT_tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,13 +263,49 @@
 			productReference = A332C02322A84E80009E47D5 /* SwiftWebVTTTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FAD3B6B024B5B73A00225A89 /* SwiftWebVTT-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD3B6C624B5B73A00225A89 /* Build configuration list for PBXNativeTarget "SwiftWebVTT-tvOS" */;
+			buildPhases = (
+				FAD3B6AC24B5B73A00225A89 /* Headers */,
+				FAD3B6AD24B5B73A00225A89 /* Sources */,
+				FAD3B6AE24B5B73A00225A89 /* Frameworks */,
+				FAD3B6AF24B5B73A00225A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftWebVTT-tvOS";
+			productName = "SwiftWebVTT-tvOS";
+			productReference = FAD3B6B124B5B73A00225A89 /* SwiftWebVTT_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAD3B6B824B5B73A00225A89 /* SwiftWebVTT-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD3B6C724B5B73A00225A89 /* Build configuration list for PBXNativeTarget "SwiftWebVTT-tvOSTests" */;
+			buildPhases = (
+				FAD3B6B524B5B73A00225A89 /* Sources */,
+				FAD3B6B624B5B73A00225A89 /* Frameworks */,
+				FAD3B6B724B5B73A00225A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD3B6BC24B5B73A00225A89 /* PBXTargetDependency */,
+			);
+			name = "SwiftWebVTT-tvOSTests";
+			productName = "SwiftWebVTT-tvOSTests";
+			productReference = FAD3B6B924B5B73A00225A89 /* SwiftWebVTT-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		A332BFDD22A84954009E47D5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
+				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Mikhail Apurin";
 				TargetAttributes = {
@@ -194,6 +315,12 @@
 					};
 					A332C02222A84E80009E47D5 = {
 						CreatedOnToolsVersion = 11.0;
+					};
+					FAD3B6B024B5B73A00225A89 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					FAD3B6B824B5B73A00225A89 = {
+						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
@@ -212,6 +339,8 @@
 			targets = (
 				A332BFE522A84954009E47D5 /* SwiftWebVTT */,
 				A332C02222A84E80009E47D5 /* SwiftWebVTTTests */,
+				FAD3B6B024B5B73A00225A89 /* SwiftWebVTT-tvOS */,
+				FAD3B6B824B5B73A00225A89 /* SwiftWebVTT-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +361,22 @@
 			files = (
 				A3819D3422EC2D9D00F15A56 /* entities_encoded.txt in Resources */,
 				A3819D3522EC2D9D00F15A56 /* entities_decoded.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD3B6AF24B5B73A00225A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD3B6D924B5BA0C00225A89 /* references_named.json in Resources */,
+				FAD3B6DA24B5BA0F00225A89 /* references_substitutes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD3B6B724B5B73A00225A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +404,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAD3B6AD24B5B73A00225A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD3B6D624B5BA0400225A89 /* HTMLCharacterReferences.swift in Sources */,
+				FAD3B6D824B5BA0900225A89 /* Extensions.swift in Sources */,
+				FAD3B6D324B5B9FC00225A89 /* WebVTT.swift in Sources */,
+				FAD3B6D424B5B9FF00225A89 /* Deduplication.swift in Sources */,
+				FAD3B6D724B5BA0700225A89 /* Scanner.swift in Sources */,
+				FAD3B6D524B5BA0200225A89 /* WebVTTParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD3B6B524B5B73A00225A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD3B6BF24B5B73A00225A89 /* SwiftWebVTT_tvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -266,6 +432,11 @@
 			isa = PBXTargetDependency;
 			target = A332BFE522A84954009E47D5 /* SwiftWebVTT */;
 			targetProxy = A332C02922A84E80009E47D5 /* PBXContainerItemProxy */;
+		};
+		FAD3B6BC24B5B73A00225A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD3B6B024B5B73A00225A89 /* SwiftWebVTT-tvOS */;
+			targetProxy = FAD3B6BB24B5B73A00225A89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -481,6 +652,100 @@
 			};
 			name = Release;
 		};
+		FAD3B6C224B5B73A00225A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G9Z7NMDMM4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SwiftWebVTT-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.apurin.SwiftWebVTT.SwiftWebVTT-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		FAD3B6C324B5B73A00225A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G9Z7NMDMM4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "SwiftWebVTT-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.apurin.SwiftWebVTT.SwiftWebVTT-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Release;
+		};
+		FAD3B6C424B5B73A00225A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9Z7NMDMM4;
+				INFOPLIST_FILE = "SwiftWebVTT-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.apurin.SwiftWebVTT.SwiftWebVTT-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		FAD3B6C524B5B73A00225A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9Z7NMDMM4;
+				INFOPLIST_FILE = "SwiftWebVTT-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.apurin.SwiftWebVTT.SwiftWebVTT-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -507,6 +772,24 @@
 			buildConfigurations = (
 				A332C02B22A84E80009E47D5 /* Debug */,
 				A332C02C22A84E80009E47D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD3B6C624B5B73A00225A89 /* Build configuration list for PBXNativeTarget "SwiftWebVTT-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD3B6C224B5B73A00225A89 /* Debug */,
+				FAD3B6C324B5B73A00225A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD3B6C724B5B73A00225A89 /* Build configuration list for PBXNativeTarget "SwiftWebVTT-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD3B6C424B5B73A00225A89 /* Debug */,
+				FAD3B6C524B5B73A00225A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
